@@ -1,0 +1,546 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ModelBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ModelBase
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Ffn.Core.ModelBase">
+  
+  
+  <h1 id="Ffn_Core_ModelBase" data-uid="Ffn.Core.ModelBase" class="text-break">Class ModelBase
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ModelBase</span></div>
+      <div class="level2"><a class="xref" href="Ffn.Core.ModificationInfo.html">ModificationInfo</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Authorizations.Authorization.html">Authorization</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Authorizations.AuthorizedShippingMethod.html">AuthorizedShippingMethod</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Authorizations.CreateAuthorizedShippingMethodParams.html">CreateAuthorizedShippingMethodParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Authorizations.ShippingMethodAuthorizationParams.html">ShippingMethodAuthorizationParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Authorizations.WarehouseAuthorization.html">WarehouseAuthorization</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Authorizations.WarehouseAuthorizationParams.html">WarehouseAuthorizationParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Inbounds.CreateIncomingGoodsBulkParams.html">CreateIncomingGoodsBulkParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Inbounds.CreateIncomingGoodsItemParams.html">CreateIncomingGoodsItemParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Inbounds.Inbound.html">Inbound</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Inbounds.InboundItem.html">InboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Inbounds.InboundShippingNotification.html">InboundShippingNotification</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Inbounds.InboundShippingNotificationItem.html">InboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Inbounds.InboundShippingPackage.html">InboundShippingPackage</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Kpi.Statistics.html">Statistics</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Kpi.StatisticsPageItem.html">StatisticsPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Merchants.Merchant.html">Merchant</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.ChangedOutboundStatus.html">ChangedOutboundStatus</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.ChangeOutboundStatusParams.html">ChangeOutboundStatusParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.ChangeStatusParams.html">ChangeStatusParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.ChangeWarehouseParams.html">ChangeWarehouseParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.CreateAmazonSfpShippingLabelDataParams.html">CreateAmazonSfpShippingLabelDataParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.CreateOutboundShippingNotificationItemParams.html">CreateOutboundShippingNotificationItemParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.CreateOutboundShippingNotificationParams.html">CreateOutboundShippingNotificationParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.CreateOutboundShippingPackageParams.html">CreateOutboundShippingPackageParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.CreateOutboundStatusParams.html">CreateOutboundStatusParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.CreatePackageDimensionsParams.html">CreatePackageDimensionsParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.CreateShippingLabelDataParams.html">CreateShippingLabelDataParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.Outbound.html">Outbound</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundAttachment.html">OutboundAttachment</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundAttachmentData.html">OutboundAttachmentData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundItem.html">OutboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundShippingLabel.html">OutboundShippingLabel</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundShippingNotification.html">OutboundShippingNotification</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundShippingNotificationItem.html">OutboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundShippingPackage.html">OutboundShippingPackage</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.PackageDimensions.html">PackageDimensions</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Outbounds.StatusTimestamp.html">StatusTimestamp</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Products.BillOfMaterialsComponent.html">BillOfMaterialsComponent</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Products.Dimensions.html">Dimensions</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Products.Identifier.html">Identifier</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Products.Mpn.html">Mpn</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Products.Picture.html">Picture</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Products.PictureData.html">PictureData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Products.Price.html">Price</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Products.Product.html">Product</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Products.ProductBundle.html">ProductBundle</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Products.ProductPageItem.html">ProductPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Products.Specifications.html">Specifications</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Shared.Address.html">Address</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Shared.Attribute.html">Attribute</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Shared.BestBefore.html">BestBefore</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Shared.CreateAddressParams.html">CreateAddressParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Shared.CreateBestBeforeParams.html">CreateBestBeforeParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Shared.CreatePackageIdentifierParams.html">CreatePackageIdentifierParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Shared.PackageIdentifier.html">PackageIdentifier</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Shared.UpdateAddressParams.html">UpdateAddressParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.ShippingMethods.CreateShippingMethodParams.html">CreateShippingMethodParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.ShippingMethods.ShippingMethod.html">ShippingMethod</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.ShippingMethods.UpdateShippingMethodParams.html">UpdateShippingMethodParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.CreateStockAdjustmentParams.html">CreateStockAdjustmentParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.Stock.html">Stock</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.StockAnnouncedDetail.html">StockAnnouncedDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.StockChange.html">StockChange</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.StockChangeId.html">StockChangeId</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.StockChangeInboundItem.html">StockChangeInboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.StockChangeOutboundItem.html">StockChangeOutboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.StockChangeOutboundShippingNotificationItem.html">StockChangeOutboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.StockChangeWithProduct.html">StockChangeWithProduct</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.StockInWarehouse.html">StockInWarehouse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.StockLevelDetail.html">StockLevelDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.StockPageItem.html">StockPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Stocks.StockReservedDetail.html">StockReservedDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Warehouses.CreateWarehouseParams.html">CreateWarehouseParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Warehouses.UpdateWarehouseParams.html">UpdateWarehouseParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Warehouses.Warehouse.html">Warehouse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Credentials.AmazonSfpCredential.html">AmazonSfpCredential</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Credentials.CreateAmazonSfpCredentialParams.html">CreateAmazonSfpCredentialParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Fulfillers.Fulfiller.html">Fulfiller</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.CreateInboundItemParams.html">CreateInboundItemParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.CreateInboundParams.html">CreateInboundParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.CreateInboundShippingNotificationItemParams.html">CreateInboundShippingNotificationItemParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.CreateInboundShippingNotificationParams.html">CreateInboundShippingNotificationParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.CreateInboundShippingPackageParams.html">CreateInboundShippingPackageParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.Inbound.html">Inbound</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.InboundItem.html">InboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.InboundShippingNotification.html">InboundShippingNotification</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.InboundShippingNotificationItem.html">InboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.InboundShippingPackage.html">InboundShippingPackage</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.UpdateInboundParams.html">UpdateInboundParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Inbounds.UpdateInboundShippingNotificationParams.html">UpdateInboundShippingNotificationParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Kpi.Statistics.html">Statistics</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Kpi.StatisticsPageItem.html">StatisticsPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.AmazonSfpShippingLabelProviderData.html">AmazonSfpShippingLabelProviderData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.ChangeStatusParams.html">ChangeStatusParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.CreateAmazonSfpShippingLabelProviderDataParams.html">CreateAmazonSfpShippingLabelProviderDataParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.CreateOutboundAttachmentDataParams.html">CreateOutboundAttachmentDataParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.CreateOutboundItemParams.html">CreateOutboundItemParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.CreateOutboundParams.html">CreateOutboundParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.CreateShippingLabelProviderDataParams.html">CreateShippingLabelProviderDataParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.Outbound.html">Outbound</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.OutboundAttachment.html">OutboundAttachment</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.OutboundAttachmentData.html">OutboundAttachmentData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.OutboundItem.html">OutboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.OutboundShippingNotification.html">OutboundShippingNotification</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.OutboundShippingNotificationItem.html">OutboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.OutboundShippingPackage.html">OutboundShippingPackage</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.PackageDimensions.html">PackageDimensions</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.ShippingLabelProviderData.html">ShippingLabelProviderData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.StatusTimestamp.html">StatusTimestamp</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Outbounds.UpdateOutboundParams.html">UpdateOutboundParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.BillOfMaterialsComponent.html">BillOfMaterialsComponent</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.CreateBillOfMaterialsComponentParams.html">CreateBillOfMaterialsComponentParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.CreateDimensionsParams.html">CreateDimensionsParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.CreateIdentifierParams.html">CreateIdentifierParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.CreateMpnParams.html">CreateMpnParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.CreatePictureDataParams.html">CreatePictureDataParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.CreatePriceParams.html">CreatePriceParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.CreateProductBundleParams.html">CreateProductBundleParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.CreateProductParams.html">CreateProductParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.CreateSpecificationsParams.html">CreateSpecificationsParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.Dimensions.html">Dimensions</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.FulfillerAuthorization.html">FulfillerAuthorization</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.Identifier.html">Identifier</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.Mpn.html">Mpn</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.Picture.html">Picture</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.PictureData.html">PictureData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.Price.html">Price</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.Product.html">Product</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.ProductAuthorizationParams.html">ProductAuthorizationParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.ProductBundle.html">ProductBundle</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.ProductPageItem.html">ProductPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.Specifications.html">Specifications</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.UpdateDimensionsParams.html">UpdateDimensionsParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.UpdateIdentifierParams.html">UpdateIdentifierParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.UpdateMpnParams.html">UpdateMpnParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.UpdatePriceParams.html">UpdatePriceParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.UpdateProductParams.html">UpdateProductParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Products.UpdateSpecificationsParams.html">UpdateSpecificationsParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Shared.Address.html">Address</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Shared.Attribute.html">Attribute</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Shared.BestBefore.html">BestBefore</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Shared.CreateAddressParams.html">CreateAddressParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Shared.CreateAttributeParams.html">CreateAttributeParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Shared.CreatePackageIdentifierParams.html">CreatePackageIdentifierParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Shared.PackageIdentifier.html">PackageIdentifier</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Shared.UpdateAddressParams.html">UpdateAddressParams</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.ShippingMethods.ShippingMethod.html">ShippingMethod</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.Stock.html">Stock</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockAnnouncedDetail.html">StockAnnouncedDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockChange.html">StockChange</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockChangeId.html">StockChangeId</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockChangeInboundItem.html">StockChangeInboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockChangeOutboundItem.html">StockChangeOutboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockChangeOutboundShippingNotificationItem.html">StockChangeOutboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockChangeWithProduct.html">StockChangeWithProduct</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockInWarehouse.html">StockInWarehouse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockLevelDetail.html">StockLevelDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockPageItem.html">StockPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockPerFulfiller.html">StockPerFulfiller</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Stocks.StockReservedDetail.html">StockReservedDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Warehouses.Warehouse.html">Warehouse</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ffn.Core.html">Ffn.Core</a></h6>
+  <h6><strong>Assembly</strong>: Ffn.Core.dll</h6>
+  <h5 id="Ffn_Core_ModelBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ModelBase</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ModelBase_AddModelChild_System_String_Ffn_Core_ModelBase_.md&amp;value=---%0Auid%3A%20Ffn.Core.ModelBase.AddModelChild(System.String%2CFfn.Core.ModelBase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ModelBase.cs/#L12">View Source</a>
+  </span>
+  <a id="Ffn_Core_ModelBase_AddModelChild_" data-uid="Ffn.Core.ModelBase.AddModelChild*"></a>
+  <h4 id="Ffn_Core_ModelBase_AddModelChild_System_String_Ffn_Core_ModelBase_" data-uid="Ffn.Core.ModelBase.AddModelChild(System.String,Ffn.Core.ModelBase)">AddModelChild(String, ModelBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddModelChild(string propertyName, ModelBase child)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Ffn.Core.ModelBase.html">ModelBase</a></td>
+        <td><span class="parametername">child</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ModelBase_GetModelChild_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Core.ModelBase.GetModelChild(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ModelBase.cs/#L22">View Source</a>
+  </span>
+  <a id="Ffn_Core_ModelBase_GetModelChild_" data-uid="Ffn.Core.ModelBase.GetModelChild*"></a>
+  <h4 id="Ffn_Core_ModelBase_GetModelChild_System_String_" data-uid="Ffn.Core.ModelBase.GetModelChild(System.String)">GetModelChild(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModelBase GetModelChild(string propertyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ffn.Core.ModelBase.html">ModelBase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ModelBase_HasChanged_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Core.ModelBase.HasChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ModelBase.cs/#L37">View Source</a>
+  </span>
+  <a id="Ffn_Core_ModelBase_HasChanged_" data-uid="Ffn.Core.ModelBase.HasChanged*"></a>
+  <h4 id="Ffn_Core_ModelBase_HasChanged_System_String_" data-uid="Ffn.Core.ModelBase.HasChanged(System.String)">HasChanged(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasChanged(string propertyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ModelBase_HasChanges.md&amp;value=---%0Auid%3A%20Ffn.Core.ModelBase.HasChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ModelBase.cs/#L32">View Source</a>
+  </span>
+  <a id="Ffn_Core_ModelBase_HasChanges_" data-uid="Ffn.Core.ModelBase.HasChanges*"></a>
+  <h4 id="Ffn_Core_ModelBase_HasChanges" data-uid="Ffn.Core.ModelBase.HasChanges">HasChanges()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasChanges()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ModelBase_MarkAsChanged_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Core.ModelBase.MarkAsChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ModelBase.cs/#L27">View Source</a>
+  </span>
+  <a id="Ffn_Core_ModelBase_MarkAsChanged_" data-uid="Ffn.Core.ModelBase.MarkAsChanged*"></a>
+  <h4 id="Ffn_Core_ModelBase_MarkAsChanged_System_String_" data-uid="Ffn.Core.ModelBase.MarkAsChanged(System.String)">MarkAsChanged(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void MarkAsChanged(string propName = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ModelBase_ReplaceModelChild_Ffn_Core_ModelBase_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Core.ModelBase.ReplaceModelChild(Ffn.Core.ModelBase%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ModelBase.cs/#L17">View Source</a>
+  </span>
+  <a id="Ffn_Core_ModelBase_ReplaceModelChild_" data-uid="Ffn.Core.ModelBase.ReplaceModelChild*"></a>
+  <h4 id="Ffn_Core_ModelBase_ReplaceModelChild_Ffn_Core_ModelBase_System_String_" data-uid="Ffn.Core.ModelBase.ReplaceModelChild(Ffn.Core.ModelBase,System.String)">ReplaceModelChild(ModelBase, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ReplaceModelChild(ModelBase child, string propertyName = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ffn.Core.ModelBase.html">ModelBase</a></td>
+        <td><span class="parametername">child</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ModelBase.md&amp;value=---%0Auid%3A%20Ffn.Core.ModelBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ModelBase.cs/#L7" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>powered by <strong>JTL</strong></span>
+          </div>
+        </div>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

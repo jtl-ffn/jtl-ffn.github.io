@@ -1,0 +1,447 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IProductOperations
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IProductOperations
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Ffn.Fulfiller.Products.IProductOperations">
+  
+  
+  <h1 id="Ffn_Fulfiller_Products_IProductOperations" data-uid="Ffn.Fulfiller.Products.IProductOperations" class="text-break">Interface IProductOperations
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ffn.Fulfiller.Products.html">Ffn.Fulfiller.Products</a></h6>
+  <h6><strong>Assembly</strong>: Ffn.Fulfiller.dll</h6>
+  <h5 id="Ffn_Fulfiller_Products_IProductOperations_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IProductOperations</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Products_IProductOperations_CreateConditionForProduct_System_String_Ffn_Fulfiller_Products_ProductCondition_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Products.IProductOperations.CreateConditionForProduct(System.String%2CFfn.Fulfiller.Products.ProductCondition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Products/IProductOperations.cs/#L13">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Products_IProductOperations_CreateConditionForProduct_" data-uid="Ffn.Fulfiller.Products.IProductOperations.CreateConditionForProduct*"></a>
+  <h4 id="Ffn_Fulfiller_Products_IProductOperations_CreateConditionForProduct_System_String_Ffn_Fulfiller_Products_ProductCondition_" data-uid="Ffn.Fulfiller.Products.IProductOperations.CreateConditionForProduct(System.String,Ffn.Fulfiller.Products.ProductCondition)">CreateConditionForProduct(String, ProductCondition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;Product&gt;&gt; CreateConditionForProduct(string jfsku, ProductCondition condition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">jfsku</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Ffn.Fulfiller.Products.ProductCondition.html">ProductCondition</a></td>
+        <td><span class="parametername">condition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<a class="xref" href="Ffn.Fulfiller.Products.Product.html">Product</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Products_IProductOperations_Get_System_String_Ffn_Fulfiller_Products_ExpandProductParameter_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Products.IProductOperations.Get(System.String%2CFfn.Fulfiller.Products.ExpandProductParameter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Products/IProductOperations.cs/#L10">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Products_IProductOperations_Get_" data-uid="Ffn.Fulfiller.Products.IProductOperations.Get*"></a>
+  <h4 id="Ffn_Fulfiller_Products_IProductOperations_Get_System_String_Ffn_Fulfiller_Products_ExpandProductParameter_" data-uid="Ffn.Fulfiller.Products.IProductOperations.Get(System.String,Ffn.Fulfiller.Products.ExpandProductParameter)">Get(String, ExpandProductParameter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;Product&gt;&gt; Get(string jfsku, ExpandProductParameter expand = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">jfsku</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Ffn.Fulfiller.Products.ExpandProductParameter.html">ExpandProductParameter</a></td>
+        <td><span class="parametername">expand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<a class="xref" href="Ffn.Fulfiller.Products.Product.html">Product</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Products_IProductOperations_GetAll_Ffn_Core_IQuery_Ffn_Fulfiller_Products_Product__Ffn_Fulfiller_Products_ExpandProductParameter_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Products.IProductOperations.GetAll(Ffn.Core.IQuery%7BFfn.Fulfiller.Products.Product%7D%2CFfn.Fulfiller.Products.ExpandProductParameter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Products/IProductOperations.cs/#L11">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Products_IProductOperations_GetAll_" data-uid="Ffn.Fulfiller.Products.IProductOperations.GetAll*"></a>
+  <h4 id="Ffn_Fulfiller_Products_IProductOperations_GetAll_Ffn_Core_IQuery_Ffn_Fulfiller_Products_Product__Ffn_Fulfiller_Products_ExpandProductParameter_" data-uid="Ffn.Fulfiller.Products.IProductOperations.GetAll(Ffn.Core.IQuery{Ffn.Fulfiller.Products.Product},Ffn.Fulfiller.Products.ExpandProductParameter)">GetAll(IQuery&lt;Product&gt;, ExpandProductParameter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PagedResult&lt;Product&gt;&gt; GetAll(IQuery&lt;Product&gt; query = null, ExpandProductParameter expand = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ffn.Core.IQuery-1.html">IQuery</a>&lt;<a class="xref" href="Ffn.Fulfiller.Products.Product.html">Product</a>&gt;</td>
+        <td><span class="parametername">query</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Ffn.Fulfiller.Products.ExpandProductParameter.html">ExpandProductParameter</a></td>
+        <td><span class="parametername">expand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.PagedResult-1.html">PagedResult</a>&lt;<a class="xref" href="Ffn.Fulfiller.Products.Product.html">Product</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Products_IProductOperations_GetPicture_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Products.IProductOperations.GetPicture(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Products/IProductOperations.cs/#L14">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Products_IProductOperations_GetPicture_" data-uid="Ffn.Fulfiller.Products.IProductOperations.GetPicture*"></a>
+  <h4 id="Ffn_Fulfiller_Products_IProductOperations_GetPicture_System_String_System_Int32_" data-uid="Ffn.Fulfiller.Products.IProductOperations.GetPicture(System.String,System.Int32)">GetPicture(String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;PictureData&gt;&gt; GetPicture(string jfsku, int number)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">jfsku</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">number</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<a class="xref" href="Ffn.Fulfiller.Products.PictureData.html">PictureData</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Products_IProductOperations_GetPictureData_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Products.IProductOperations.GetPictureData(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Products/IProductOperations.cs/#L15">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Products_IProductOperations_GetPictureData_" data-uid="Ffn.Fulfiller.Products.IProductOperations.GetPictureData*"></a>
+  <h4 id="Ffn_Fulfiller_Products_IProductOperations_GetPictureData_System_String_System_Int32_" data-uid="Ffn.Fulfiller.Products.IProductOperations.GetPictureData(System.String,System.Int32)">GetPictureData(String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;byte[]&gt;&gt; GetPictureData(string jfsku, int number)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">jfsku</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">number</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<span class="xref">System.Byte</span>[]&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Products_IProductOperations_GetUpdates_System_Nullable_DateTimeOffset__System_Nullable_DateTimeOffset__System_Nullable_System_Int32__Ffn_Core_RecentDataRequestSettings_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Products.IProductOperations.GetUpdates(System.Nullable%7BDateTimeOffset%7D%2CSystem.Nullable%7BDateTimeOffset%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CFfn.Core.RecentDataRequestSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Products/IProductOperations.cs/#L12">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Products_IProductOperations_GetUpdates_" data-uid="Ffn.Fulfiller.Products.IProductOperations.GetUpdates*"></a>
+  <h4 id="Ffn_Fulfiller_Products_IProductOperations_GetUpdates_System_Nullable_DateTimeOffset__System_Nullable_DateTimeOffset__System_Nullable_System_Int32__Ffn_Core_RecentDataRequestSettings_" data-uid="Ffn.Fulfiller.Products.IProductOperations.GetUpdates(System.Nullable{DateTimeOffset},System.Nullable{DateTimeOffset},System.Nullable{System.Int32},Ffn.Core.RecentDataRequestSettings)">GetUpdates(Nullable&lt;DateTimeOffset&gt;, Nullable&lt;DateTimeOffset&gt;, Nullable&lt;Int32&gt;, RecentDataRequestSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;UpdatesPagedResult&lt;Product&gt;&gt; GetUpdates(DateTimeOffset? fromDate = null, DateTimeOffset? toDate = null, int? page = null, RecentDataRequestSettings recentDataRequestSettings = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">page</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Ffn.Core.RecentDataRequestSettings.html">RecentDataRequestSettings</a></td>
+        <td><span class="parametername">recentDataRequestSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.UpdatesPagedResult-1.html">UpdatesPagedResult</a>&lt;<a class="xref" href="Ffn.Fulfiller.Products.Product.html">Product</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Products_IProductOperations.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Products.IProductOperations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Products/IProductOperations.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>powered by <strong>JTL</strong></span>
+          </div>
+        </div>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

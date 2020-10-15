@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Terminology </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Terminology ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="terminology">
+<h1 id="terminology">Terminology</h1>
+
+<h2 id="user">User</h2>
+<p>A registered user in the Fulfillment Network. Identified by a unique <code>userId</code>.</p>
+<h3 id="merchant">Merchant</h3>
+<p>A user who stores his products at a fulfillers warehouse and wants to ship orders to customers from there.</p>
+<h3 id="fulfiller">Fulfiller</h3>
+<p>A user with a warehouse who can store products and fulfill orders to customers.</p>
+<h2 id="customer">Customer</h2>
+<p>The person who bought products from the merchant and will receive these products from the fulfiller.</p>
+<h2 id="product">Product</h2>
+<p>A good, that is to be warehoused by the fulfiller and later shipped to end customers.</p>
+<h3 id="bill-of-materials">Bill of materials</h3>
+<p>A special kind of product, that does not have stock itself, but contains other products.</p>
+<h2 id="stock">Stock</h2>
+<p>The quantity of a product that exists in the network.
+There are different kinds of stock levels:</p>
+<ul>
+<li><code>stockLevel</code>          - the amount of the given product the fulfiller has available in the respective warehouse</li>
+<li><code>stockLevelAnnounced</code> - the amount of the given product that is on it's way to the fulfiller (is in open inbounds)</li>
+<li><code>stockLevelReserved</code>  - the amount of the <code>stockLevel</code> that is currently reserved by open outbounds</li>
+<li><code>stockLevelBlocked</code>   - separate stock level of the product that is not available for shipment</li>
+</ul>
+<h3 id="stock-changes">Stock changes</h3>
+<p>Changes that occur in the stock level. These happen internally when:</p>
+<ul>
+<li>An inbound is created by the merchant (<code>stockLevelAnnounced</code> will be increased)</li>
+<li>An outbound is created by the merchant (<code>stockLevelReserved</code> will be increased)</li>
+<li>An outbound shipping notification is created by the fulfiller (<code>stockLevelReserved</code> and <code>stockLevel</code> is decreased)</li>
+<li>An adjustment is made by the fulfiller (<code>stockLevel</code> or <code>stockLevelBlocked</code> is increased/decreased)</li>
+</ul>
+<h2 id="warehouse">Warehouse</h2>
+<p>A fulfillers warehouse that products can be sent to via inbounds and where products are later being shipped from to customers.
+Warehouses are created by fulfillers and can be authorized to merchants. Only authorized warehouses are visible to the respective merchant.</p>
+<h2 id="shipping-methods">Shipping methods</h2>
+<p>A specific method of delivery of an order to the customer.
+A fulfiller manages the methods, that is is able to provide.
+Shipping methods need to be authorized to a merchants warehouse for the merchant to be able to use these shipping methods in order creation.</p>
+<h2 id="inbound">Inbound</h2>
+<p>A purchase order of goods being shipped by the merchant to one of his authorized warehouses.
+Inbounds represent an intent to ship and contain no actual shipment information.</p>
+<h3 id="inbound-shipping-notification">Inbound shipping notification</h3>
+<p>Shipping information regarding an inbound. An inbound shipping notification tells the fulfiller what has been shipped when in which packages.</p>
+<h2 id="outbound">Outbound</h2>
+<p>An order that is to be fulfilled to the customer by the fulfiller.</p>
+<h3 id="outbound-shipping-notification">Outbound shipping notification</h3>
+<p>Shipping information about products regarding an outbound that has left the fulfillers warehouse.
+It contains the products that were shipped and information regarding delivery.</p>
+<h2 id="authorizations">Authorizations</h2>
+<p>There are several kinds of authorizations that allow merchants and fulfillers to work with each other:</p>
+<ul>
+<li>User authorizations - Connect a merchant to a fulfiller.</li>
+<li>Warehouse authorizations - A fulfiller grants a merchant the rights to ship to/from this warehouse</li>
+<li>Shipping method authorizations - A fulfiller grants a merchant the right to ship with the given shipping method from a warehouse</li>
+<li>Product authorizations - A merchant grants a fulfiller the right to see his product. These are also created automatically when an inbound is created.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Documentation/core/terminology.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>powered by <strong>JTL</strong></span>
+          </div>
+        </div>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

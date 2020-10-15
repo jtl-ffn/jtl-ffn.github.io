@@ -1,0 +1,35 @@
+body {
+    color: #000;
+}
+
+.navbar-inverse {
+    color: #000;
+    background-color: #FFF;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #009788;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #009788;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #009788;
+    background-color: transparent;
+}
+
+/* header .subnav {
+    border-width: 10px 0px 0px 0px;
+    border-color: #009788;
+    border-radius: 0;
+} */
+
+header .navbar-inverse {
+    border-width: 0 0 10px;
+    border-color: #009788;
+    border-radius: 0;
+}

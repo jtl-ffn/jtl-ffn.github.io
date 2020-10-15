@@ -1,0 +1,667 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SdkException
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SdkException
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Ffn.Core.Exceptions.SdkException">
+  
+  
+  <h1 id="Ffn_Core_Exceptions_SdkException" data-uid="Ffn.Core.Exceptions.SdkException" class="text-break">Class SdkException
+  </h1>
+  <div class="markdown level0 summary"><p>Base class for exceptions for SDK calls</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Exception</span></div>
+    <div class="level2"><span class="xref">SdkException</span></div>
+      <div class="level3"><a class="xref" href="Ffn.Core.Exceptions.ConnectionFailureException.html">ConnectionFailureException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Core.Exceptions.InternalServerErrorException.html">InternalServerErrorException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Core.Exceptions.MaintenanceModeException.html">MaintenanceModeException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Core.Exceptions.UnauthorizedException.html">UnauthorizedException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Core.Exceptions.UnexpectedSdkException.html">UnexpectedSdkException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Core.Exceptions.ValidationException.html">ValidationException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.AccessAlreadyLockedException.html">AccessAlreadyLockedException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.AmazonCredentialsException.html">AmazonCredentialsException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.AmazonSfpShippingServiceNotAvailableException.html">AmazonSfpShippingServiceNotAvailableException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.ApiTokenAlreadyExistException.html">ApiTokenAlreadyExistException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.ApiTokenDoesNotExistException.html">ApiTokenDoesNotExistException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.AttachmentNotFoundException.html">AttachmentNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.AuthorizedExceptionBase.html">AuthorizedExceptionBase</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.AutoCompleteBillOfMaterialsWithBillOfMaterialsIdException.html">AutoCompleteBillOfMaterialsWithBillOfMaterialsIdException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.CancelReasonIsNullException.html">CancelReasonIsNullException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.CarrierCodeIsNullException.html">CarrierCodeIsNullException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.CouldNotCreateUserException.html">CouldNotCreateUserException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.CouldNotUpdateUserException.html">CouldNotUpdateUserException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.CredentialNotFoundException.html">CredentialNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.DuplicateAttachmentIdException.html">DuplicateAttachmentIdException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.DuplicateCancelReasonException.html">DuplicateCancelReasonException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.DuplicateCarrierCodeException.html">DuplicateCarrierCodeException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.DuplicateCredentialException.html">DuplicateCredentialException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.DuplicateKeyException.html">DuplicateKeyException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.DuplicateOutboundItemIdsException.html">DuplicateOutboundItemIdsException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.DuplicateShippingMethodException.html">DuplicateShippingMethodException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.DuplicateUserException.html">DuplicateUserException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.FileNotFoundException.html">FileNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.FulfillerCanNotCloseInboundException.html">FulfillerCanNotCloseInboundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.FulfillerHasStockException.html">FulfillerHasStockException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.FulfillerMismatchException.html">FulfillerMismatchException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.InapropriateShippingMethodException.html">InapropriateShippingMethodException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.InboundAccessViolationException.html">InboundAccessViolationException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.InsertFileException.html">InsertFileException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.InvalidContentTypeException.html">InvalidContentTypeException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.InvalidIdentifierException.html">InvalidIdentifierException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.InvalidScopeGivenException.html">InvalidScopeGivenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.MerchantInboundExceptionBase.html">MerchantInboundExceptionBase</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.ModelValidationException.html">ModelValidationException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.NoScopesGivenException.html">NoScopesGivenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.NotCanceledOutboundExistsException.html">NotCanceledOutboundExistsException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OperationForbiddenException.html">OperationForbiddenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutboundAccessViolationException.html">OutboundAccessViolationException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutboundAttachmentNotFoundException.html">OutboundAttachmentNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutboundItemBillOfMaterialsHasNoChildException.html">OutboundItemBillOfMaterialsHasNoChildException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutboundNotFoundException.html">OutboundNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutboundShippingLabelNotFoundException.html">OutboundShippingLabelNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutboundShippingMethodAndShippingTypeSetException.html">OutboundShippingMethodAndShippingTypeSetException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutboundShippingNotificationNotEnoughQuantityOpenException.html">OutboundShippingNotificationNotEnoughQuantityOpenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutboundShippingNotificationNotFoundException.html">OutboundShippingNotificationNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutboundShippingNotificationStatusForbiddenException.html">OutboundShippingNotificationStatusForbiddenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutboundStatusChangeForbiddenException.html">OutboundStatusChangeForbiddenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutboundUpdateForbiddenException.html">OutboundUpdateForbiddenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.OutdatedOutboundException.html">OutdatedOutboundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.ProductExceptionBase.html">ProductExceptionBase</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.ProductsNotFoundException.html">ProductsNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.QueryExceptionBase.html">QueryExceptionBase</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.ShippingLabelProviderException.html">ShippingLabelProviderException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.ShippingMethodAuthorizationExistsException.html">ShippingMethodAuthorizationExistsException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.ShippingMethodNotFoundByShippingTypeException.html">ShippingMethodNotFoundByShippingTypeException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.ShippingMethodNotFoundException.html">ShippingMethodNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.StockExceptionBase.html">StockExceptionBase</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.UnknownInsertUserException.html">UnknownInsertUserException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.UpdateOperationException.html">UpdateOperationException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.UserIsNotAFulfillerException.html">UserIsNotAFulfillerException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.UserIsNotAMerchantException.html">UserIsNotAMerchantException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.UserNotAssignedException.html">UserNotAssignedException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.UserNotFoundException.html">UserNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Fulfiller.Exceptions.WarehouseExceptionBase.html">WarehouseExceptionBase</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.AccessAlreadyLockedException.html">AccessAlreadyLockedException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.AmazonCredentialsException.html">AmazonCredentialsException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.AmazonSfpShippingServiceNotAvailableException.html">AmazonSfpShippingServiceNotAvailableException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.ApiTokenAlreadyExistException.html">ApiTokenAlreadyExistException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.ApiTokenDoesNotExistException.html">ApiTokenDoesNotExistException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.AttachmentNotFoundException.html">AttachmentNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.AuthorizedExceptionBase.html">AuthorizedExceptionBase</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.AutoCompleteBillOfMaterialsWithBillOfMaterialsIdException.html">AutoCompleteBillOfMaterialsWithBillOfMaterialsIdException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.CancelReasonIsNullException.html">CancelReasonIsNullException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.CarrierCodeIsNullException.html">CarrierCodeIsNullException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.CouldNotCreateUserException.html">CouldNotCreateUserException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.CouldNotUpdateUserException.html">CouldNotUpdateUserException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.CredentialNotFoundException.html">CredentialNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.DuplicateAttachmentIdException.html">DuplicateAttachmentIdException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.DuplicateCancelReasonException.html">DuplicateCancelReasonException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.DuplicateCarrierCodeException.html">DuplicateCarrierCodeException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.DuplicateCredentialException.html">DuplicateCredentialException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.DuplicateKeyException.html">DuplicateKeyException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.DuplicateOutboundItemIdsException.html">DuplicateOutboundItemIdsException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.DuplicateShippingMethodException.html">DuplicateShippingMethodException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.DuplicateUserException.html">DuplicateUserException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.FileNotFoundException.html">FileNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.FulfillerCanNotCloseInboundException.html">FulfillerCanNotCloseInboundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.FulfillerHasStockException.html">FulfillerHasStockException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.FulfillerMismatchException.html">FulfillerMismatchException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.InapropriateShippingMethodException.html">InapropriateShippingMethodException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.InboundAccessViolationException.html">InboundAccessViolationException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.InsertFileException.html">InsertFileException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.InvalidContentTypeException.html">InvalidContentTypeException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.InvalidIdentifierException.html">InvalidIdentifierException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.InvalidScopeGivenException.html">InvalidScopeGivenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.MerchantInboundExceptionBase.html">MerchantInboundExceptionBase</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.ModelValidationException.html">ModelValidationException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.NoScopesGivenException.html">NoScopesGivenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.NotCanceledOutboundExistsException.html">NotCanceledOutboundExistsException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OperationForbiddenException.html">OperationForbiddenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutboundAccessViolationException.html">OutboundAccessViolationException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutboundAttachmentNotFoundException.html">OutboundAttachmentNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutboundItemBillOfMaterialsHasNoChildException.html">OutboundItemBillOfMaterialsHasNoChildException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutboundNotFoundException.html">OutboundNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutboundShippingLabelNotFoundException.html">OutboundShippingLabelNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutboundShippingMethodAndShippingTypeSetException.html">OutboundShippingMethodAndShippingTypeSetException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutboundShippingNotificationNotEnoughQuantityOpenException.html">OutboundShippingNotificationNotEnoughQuantityOpenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutboundShippingNotificationNotFoundException.html">OutboundShippingNotificationNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutboundShippingNotificationStatusForbiddenException.html">OutboundShippingNotificationStatusForbiddenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutboundStatusChangeForbiddenException.html">OutboundStatusChangeForbiddenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutboundUpdateForbiddenException.html">OutboundUpdateForbiddenException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.OutdatedOutboundException.html">OutdatedOutboundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.ProductExceptionBase.html">ProductExceptionBase</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.ProductsNotFoundException.html">ProductsNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.QueryExceptionBase.html">QueryExceptionBase</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.ShippingLabelProviderException.html">ShippingLabelProviderException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.ShippingMethodAuthorizationExistsException.html">ShippingMethodAuthorizationExistsException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.ShippingMethodNotFoundByShippingTypeException.html">ShippingMethodNotFoundByShippingTypeException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.ShippingMethodNotFoundException.html">ShippingMethodNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.StockExceptionBase.html">StockExceptionBase</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.UnknownInsertUserException.html">UnknownInsertUserException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.UpdateOperationException.html">UpdateOperationException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.UserIsNotAFulfillerException.html">UserIsNotAFulfillerException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.UserIsNotAMerchantException.html">UserIsNotAMerchantException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.UserNotAssignedException.html">UserNotAssignedException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.UserNotFoundException.html">UserNotFoundException</a></div>
+      <div class="level3"><a class="xref" href="Ffn.Merchant.Exceptions.WarehouseExceptionBase.html">WarehouseExceptionBase</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Runtime.Serialization.ISerializable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Exception.GetBaseException()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Data</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.HelpLink</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.HResult</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.InnerException</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Message</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Source</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.StackTrace</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.TargetSite</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.SerializeObjectState</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ffn.Core.Exceptions.html">Ffn.Core.Exceptions</a></h6>
+  <h6><strong>Assembly</strong>: Ffn.Core.dll</h6>
+  <h5 id="Ffn_Core_Exceptions_SdkException_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class SdkException : Exception, ISerializable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_Exceptions_SdkException__ctor.md&amp;value=---%0Auid%3A%20Ffn.Core.Exceptions.SdkException.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/Exceptions/SdkException.cs/#L15">View Source</a>
+  </span>
+  <a id="Ffn_Core_Exceptions_SdkException__ctor_" data-uid="Ffn.Core.Exceptions.SdkException.#ctor*"></a>
+  <h4 id="Ffn_Core_Exceptions_SdkException__ctor" data-uid="Ffn.Core.Exceptions.SdkException.#ctor">SdkException()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SdkException()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_Exceptions_SdkException__ctor_Ffn_Core_Exceptions_ErrorCode_System_String_System_Net_HttpStatusCode_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Core.Exceptions.SdkException.%23ctor(Ffn.Core.Exceptions.ErrorCode%2CSystem.String%2CSystem.Net.HttpStatusCode%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/Exceptions/SdkException.cs/#L33">View Source</a>
+  </span>
+  <a id="Ffn_Core_Exceptions_SdkException__ctor_" data-uid="Ffn.Core.Exceptions.SdkException.#ctor*"></a>
+  <h4 id="Ffn_Core_Exceptions_SdkException__ctor_Ffn_Core_Exceptions_ErrorCode_System_String_System_Net_HttpStatusCode_System_String_" data-uid="Ffn.Core.Exceptions.SdkException.#ctor(Ffn.Core.Exceptions.ErrorCode,System.String,System.Net.HttpStatusCode,System.String)">SdkException(ErrorCode, String, HttpStatusCode, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SdkException(ErrorCode errorCode, string requestId, HttpStatusCode httpStatusCode, string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ffn.Core.Exceptions.ErrorCode.html">ErrorCode</a></td>
+        <td><span class="parametername">errorCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">requestId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Net.HttpStatusCode</span></td>
+        <td><span class="parametername">httpStatusCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_Exceptions_SdkException__ctor_Ffn_Core_Exceptions_ErrorCode_System_String_System_Net_HttpStatusCode_System_String_System_Collections_Generic_IEnumerable_Ffn_Core_Exceptions_Error__.md&amp;value=---%0Auid%3A%20Ffn.Core.Exceptions.SdkException.%23ctor(Ffn.Core.Exceptions.ErrorCode%2CSystem.String%2CSystem.Net.HttpStatusCode%2CSystem.String%2CSystem.Collections.Generic.IEnumerable%7BFfn.Core.Exceptions.Error%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/Exceptions/SdkException.cs/#L41">View Source</a>
+  </span>
+  <a id="Ffn_Core_Exceptions_SdkException__ctor_" data-uid="Ffn.Core.Exceptions.SdkException.#ctor*"></a>
+  <h4 id="Ffn_Core_Exceptions_SdkException__ctor_Ffn_Core_Exceptions_ErrorCode_System_String_System_Net_HttpStatusCode_System_String_System_Collections_Generic_IEnumerable_Ffn_Core_Exceptions_Error__" data-uid="Ffn.Core.Exceptions.SdkException.#ctor(Ffn.Core.Exceptions.ErrorCode,System.String,System.Net.HttpStatusCode,System.String,System.Collections.Generic.IEnumerable{Ffn.Core.Exceptions.Error})">SdkException(ErrorCode, String, HttpStatusCode, String, IEnumerable&lt;Error&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SdkException(ErrorCode errorCode, string requestId, HttpStatusCode httpStatusCode, string message, IEnumerable&lt;Error&gt; errorMessages)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ffn.Core.Exceptions.ErrorCode.html">ErrorCode</a></td>
+        <td><span class="parametername">errorCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">requestId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Net.HttpStatusCode</span></td>
+        <td><span class="parametername">httpStatusCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Ffn.Core.Exceptions.Error.html">Error</a>&gt;</td>
+        <td><span class="parametername">errorMessages</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_Exceptions_SdkException__ctor_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Core.Exceptions.SdkException.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/Exceptions/SdkException.cs/#L20">View Source</a>
+  </span>
+  <a id="Ffn_Core_Exceptions_SdkException__ctor_" data-uid="Ffn.Core.Exceptions.SdkException.#ctor*"></a>
+  <h4 id="Ffn_Core_Exceptions_SdkException__ctor_System_String_" data-uid="Ffn.Core.Exceptions.SdkException.#ctor(System.String)">SdkException(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SdkException(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_Exceptions_SdkException__ctor_System_String_System_Exception_.md&amp;value=---%0Auid%3A%20Ffn.Core.Exceptions.SdkException.%23ctor(System.String%2CSystem.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/Exceptions/SdkException.cs/#L26">View Source</a>
+  </span>
+  <a id="Ffn_Core_Exceptions_SdkException__ctor_" data-uid="Ffn.Core.Exceptions.SdkException.#ctor*"></a>
+  <h4 id="Ffn_Core_Exceptions_SdkException__ctor_System_String_System_Exception_" data-uid="Ffn.Core.Exceptions.SdkException.#ctor(System.String,System.Exception)">SdkException(String, Exception)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SdkException(string message, Exception innerException)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">innerException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_Exceptions_SdkException_ErrorCode.md&amp;value=---%0Auid%3A%20Ffn.Core.Exceptions.SdkException.ErrorCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/Exceptions/SdkException.cs/#L53">View Source</a>
+  </span>
+  <a id="Ffn_Core_Exceptions_SdkException_ErrorCode_" data-uid="Ffn.Core.Exceptions.SdkException.ErrorCode*"></a>
+  <h4 id="Ffn_Core_Exceptions_SdkException_ErrorCode" data-uid="Ffn.Core.Exceptions.SdkException.ErrorCode">ErrorCode</h4>
+  <div class="markdown level1 summary"><p>The error code returned by the REST API</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ErrorCode ErrorCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ffn.Core.Exceptions.ErrorCode.html">ErrorCode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_Exceptions_SdkException_ErrorMessages.md&amp;value=---%0Auid%3A%20Ffn.Core.Exceptions.SdkException.ErrorMessages%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/Exceptions/SdkException.cs/#L57">View Source</a>
+  </span>
+  <a id="Ffn_Core_Exceptions_SdkException_ErrorMessages_" data-uid="Ffn.Core.Exceptions.SdkException.ErrorMessages*"></a>
+  <h4 id="Ffn_Core_Exceptions_SdkException_ErrorMessages" data-uid="Ffn.Core.Exceptions.SdkException.ErrorMessages">ErrorMessages</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Error&gt; ErrorMessages { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Ffn.Core.Exceptions.Error.html">Error</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_Exceptions_SdkException_HttpStatusCode.md&amp;value=---%0Auid%3A%20Ffn.Core.Exceptions.SdkException.HttpStatusCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/Exceptions/SdkException.cs/#L55">View Source</a>
+  </span>
+  <a id="Ffn_Core_Exceptions_SdkException_HttpStatusCode_" data-uid="Ffn.Core.Exceptions.SdkException.HttpStatusCode*"></a>
+  <h4 id="Ffn_Core_Exceptions_SdkException_HttpStatusCode" data-uid="Ffn.Core.Exceptions.SdkException.HttpStatusCode">HttpStatusCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpStatusCode? HttpStatusCode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Net.HttpStatusCode</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_Exceptions_SdkException_RequestId.md&amp;value=---%0Auid%3A%20Ffn.Core.Exceptions.SdkException.RequestId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/Exceptions/SdkException.cs/#L56">View Source</a>
+  </span>
+  <a id="Ffn_Core_Exceptions_SdkException_RequestId_" data-uid="Ffn.Core.Exceptions.SdkException.RequestId*"></a>
+  <h4 id="Ffn_Core_Exceptions_SdkException_RequestId" data-uid="Ffn.Core.Exceptions.SdkException.RequestId">RequestId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RequestId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_Exceptions_SdkException_ToString.md&amp;value=---%0Auid%3A%20Ffn.Core.Exceptions.SdkException.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/Exceptions/SdkException.cs/#L59">View Source</a>
+  </span>
+  <a id="Ffn_Core_Exceptions_SdkException_ToString_" data-uid="Ffn.Core.Exceptions.SdkException.ToString*"></a>
+  <h4 id="Ffn_Core_Exceptions_SdkException_ToString" data-uid="Ffn.Core.Exceptions.SdkException.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Exception.ToString()</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Runtime.Serialization.ISerializable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_Exceptions_SdkException.md&amp;value=---%0Auid%3A%20Ffn.Core.Exceptions.SdkException%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/Exceptions/SdkException.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>powered by <strong>JTL</strong></span>
+          </div>
+        </div>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

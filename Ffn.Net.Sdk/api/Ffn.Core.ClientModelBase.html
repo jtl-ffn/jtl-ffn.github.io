@@ -1,0 +1,505 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ClientModelBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ClientModelBase
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Ffn.Core.ClientModelBase">
+  
+  
+  <h1 id="Ffn_Core_ClientModelBase" data-uid="Ffn.Core.ClientModelBase" class="text-break">Class ClientModelBase
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ClientModelBase</span></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Address.html">Address</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Attribute.html">Attribute</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Authorization.html">Authorization</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.AuthorizedShippingMethod.html">AuthorizedShippingMethod</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.BestBefore.html">BestBefore</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.BillOfMaterialsComponent.html">BillOfMaterialsComponent</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ChangedOutboundStatus.html">ChangedOutboundStatus</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ChangeOutboundStatusRequest.html">ChangeOutboundStatusRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ChangeStatusRequest.html">ChangeStatusRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ChangeWarehouseRequest.html">ChangeWarehouseRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateAddressRequest.html">CreateAddressRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateAmazonSfpShippingLabelDataRequest.html">CreateAmazonSfpShippingLabelDataRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateAuthorizedShippingMethodRequest.html">CreateAuthorizedShippingMethodRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateBestBeforeRequest.html">CreateBestBeforeRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateIncomingGoodsBulkRequest.html">CreateIncomingGoodsBulkRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateIncomingGoodsItemRequest.html">CreateIncomingGoodsItemRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateOutboundShippingNotificationItemRequest.html">CreateOutboundShippingNotificationItemRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateOutboundShippingNotificationRequest.html">CreateOutboundShippingNotificationRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateOutboundShippingPackageRequest.html">CreateOutboundShippingPackageRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateOutboundStatusRequest.html">CreateOutboundStatusRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreatePackageDimensionsRequest.html">CreatePackageDimensionsRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreatePackageIdentifierRequest.html">CreatePackageIdentifierRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateShippingLabelDataRequest.html">CreateShippingLabelDataRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateShippingMethodRequest.html">CreateShippingMethodRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateStockAdjustmentRequest.html">CreateStockAdjustmentRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.CreateWarehouseRequest.html">CreateWarehouseRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Dimensions.html">Dimensions</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ErrorCode.html">ErrorCode</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ErrorMessages.html">ErrorMessages</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ErrorResponse.html">ErrorResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Identifier.html">Identifier</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Inbound.html">Inbound</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.InboundItem.html">InboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.InboundShippingNotification.html">InboundShippingNotification</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.InboundShippingNotificationItem.html">InboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.InboundShippingPackage.html">InboundShippingPackage</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Merchant.html">Merchant</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ModificationInfo.html">ModificationInfo</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Mpn.html">Mpn</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Outbound.html">Outbound</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.OutboundAttachment.html">OutboundAttachment</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.OutboundAttachmentData.html">OutboundAttachmentData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.OutboundItem.html">OutboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.OutboundShippingLabel.html">OutboundShippingLabel</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.OutboundShippingNotification.html">OutboundShippingNotification</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.OutboundShippingNotificationItem.html">OutboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.OutboundShippingPackage.html">OutboundShippingPackage</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PackageDimensions.html">PackageDimensions</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PackageIdentifier.html">PackageIdentifier</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Page.html">Page</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PagedAuthorizationResponse.html">PagedAuthorizationResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PagedInboundResponse.html">PagedInboundResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PagedMerchantResponse.html">PagedMerchantResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PagedOutboundResponse.html">PagedOutboundResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PagedProductResponse.html">PagedProductResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PagedShippingMethodResponse.html">PagedShippingMethodResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PagedStockChangeResponse.html">PagedStockChangeResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PagedStockChangeWithProductResponse.html">PagedStockChangeWithProductResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PagedStockInWarehouseResponse.html">PagedStockInWarehouseResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PagedStockResponse.html">PagedStockResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PagedWarehouseResponse.html">PagedWarehouseResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PageLinks.html">PageLinks</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Picture.html">Picture</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.PictureData.html">PictureData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Price.html">Price</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Product.html">Product</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ProductBundle.html">ProductBundle</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ProductPageItem.html">ProductPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.RecentAuthorizationList.html">RecentAuthorizationList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.RecentInboundList.html">RecentInboundList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.RecentInboundShippingNotificationList.html">RecentInboundShippingNotificationList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.RecentMerchantList.html">RecentMerchantList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.RecentOutboundList.html">RecentOutboundList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.RecentProductList.html">RecentProductList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.RecentShippingMethodList.html">RecentShippingMethodList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.RecentStockChangeList.html">RecentStockChangeList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.RecentWarehouseList.html">RecentWarehouseList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.RelatedProduct.html">RelatedProduct</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ShippingMethod.html">ShippingMethod</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.ShippingMethodAuthorizationRequest.html">ShippingMethodAuthorizationRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Specifications.html">Specifications</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Statistics.html">Statistics</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StatisticsPageItem.html">StatisticsPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StatisticsPerWarehouse.html">StatisticsPerWarehouse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StatusTimestamp.html">StatusTimestamp</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Stock.html">Stock</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StockAnnouncedDetail.html">StockAnnouncedDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StockChange.html">StockChange</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StockChangeId.html">StockChangeId</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StockChangeInboundItem.html">StockChangeInboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StockChangeOutboundItem.html">StockChangeOutboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StockChangeOutboundShippingNotificationItem.html">StockChangeOutboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StockChangeWithProduct.html">StockChangeWithProduct</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StockInWarehouse.html">StockInWarehouse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StockLevelDetail.html">StockLevelDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StockPageItem.html">StockPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.StockReservedDetail.html">StockReservedDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.UpdateAddressRequest.html">UpdateAddressRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.UpdateShippingMethodRequest.html">UpdateShippingMethodRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.UpdateWarehouseRequest.html">UpdateWarehouseRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.Warehouse.html">Warehouse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.WarehouseAuthorization.html">WarehouseAuthorization</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Fulfiller.Core.OpenApi.WarehouseAuthorizationRequest.html">WarehouseAuthorizationRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Address.html">Address</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.AmazonSfpCredential.html">AmazonSfpCredential</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.AmazonSfpShippingLabelProviderData.html">AmazonSfpShippingLabelProviderData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Attribute.html">Attribute</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.BestBefore.html">BestBefore</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.BillOfMaterialsComponent.html">BillOfMaterialsComponent</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.ChangeStatusRequest.html">ChangeStatusRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateAddressRequest.html">CreateAddressRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateAmazonSfpCredentialRequest.html">CreateAmazonSfpCredentialRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateAmazonSfpShippingLabelProviderDataRequest.html">CreateAmazonSfpShippingLabelProviderDataRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateAttributeRequest.html">CreateAttributeRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateBillOfMaterialsComponentRequest.html">CreateBillOfMaterialsComponentRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateDimensionsRequest.html">CreateDimensionsRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateIdentifierRequest.html">CreateIdentifierRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateInboundItemRequest.html">CreateInboundItemRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateInboundRequest.html">CreateInboundRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateInboundShippingNotificationItemRequest.html">CreateInboundShippingNotificationItemRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateInboundShippingNotificationRequest.html">CreateInboundShippingNotificationRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateInboundShippingPackageRequest.html">CreateInboundShippingPackageRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateMpnRequest.html">CreateMpnRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateOutboundAttachmentDataRequest.html">CreateOutboundAttachmentDataRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateOutboundItemRequest.html">CreateOutboundItemRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateOutboundRequest.html">CreateOutboundRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreatePackageIdentifierRequest.html">CreatePackageIdentifierRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreatePictureDataRequest.html">CreatePictureDataRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreatePriceRequest.html">CreatePriceRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateProductBundleRequest.html">CreateProductBundleRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateProductRequest.html">CreateProductRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateShippingLabelProviderDataRequest.html">CreateShippingLabelProviderDataRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.CreateSpecificationsRequest.html">CreateSpecificationsRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Dimensions.html">Dimensions</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.ErrorCode.html">ErrorCode</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.ErrorMessages.html">ErrorMessages</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.ErrorResponse.html">ErrorResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Fulfiller.html">Fulfiller</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.FulfillerAuthorization.html">FulfillerAuthorization</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Identifier.html">Identifier</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Inbound.html">Inbound</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.InboundItem.html">InboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.InboundShippingNotification.html">InboundShippingNotification</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.InboundShippingNotificationItem.html">InboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.InboundShippingPackage.html">InboundShippingPackage</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.ModificationInfo.html">ModificationInfo</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Mpn.html">Mpn</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Outbound.html">Outbound</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.OutboundAttachment.html">OutboundAttachment</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.OutboundAttachmentData.html">OutboundAttachmentData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.OutboundItem.html">OutboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.OutboundShippingNotification.html">OutboundShippingNotification</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.OutboundShippingNotificationItem.html">OutboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.OutboundShippingPackage.html">OutboundShippingPackage</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PackageDimensions.html">PackageDimensions</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PackageIdentifier.html">PackageIdentifier</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Page.html">Page</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PagedFulfillerResponse.html">PagedFulfillerResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PagedInboundResponse.html">PagedInboundResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PagedOutboundResponse.html">PagedOutboundResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PagedProductResponse.html">PagedProductResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PagedShippingMethodResponse.html">PagedShippingMethodResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PagedStockChangeWithProductResponse.html">PagedStockChangeWithProductResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PagedStockInWarehouseResponse.html">PagedStockInWarehouseResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PagedStockResponse.html">PagedStockResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PagedWarehouseResponse.html">PagedWarehouseResponse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PageLinks.html">PageLinks</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Picture.html">Picture</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.PictureData.html">PictureData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Price.html">Price</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Product.html">Product</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.ProductAuthorizationRequest.html">ProductAuthorizationRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.ProductBundle.html">ProductBundle</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.ProductPageItem.html">ProductPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.RecentFulfillerList.html">RecentFulfillerList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.RecentInboundList.html">RecentInboundList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.RecentInboundShippingNotificationList.html">RecentInboundShippingNotificationList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.RecentOutboundList.html">RecentOutboundList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.RecentOutboundShippingNotificationList.html">RecentOutboundShippingNotificationList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.RecentProductList.html">RecentProductList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.RecentShippingMethodList.html">RecentShippingMethodList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.RecentStockChangeList.html">RecentStockChangeList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.RecentWarehouseList.html">RecentWarehouseList</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.RelatedProduct.html">RelatedProduct</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.ShippingLabelProviderData.html">ShippingLabelProviderData</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.ShippingMethod.html">ShippingMethod</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Specifications.html">Specifications</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Statistics.html">Statistics</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StatisticsPageItem.html">StatisticsPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StatisticsPerFulfiller.html">StatisticsPerFulfiller</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StatisticsPerWarehouse.html">StatisticsPerWarehouse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StatusTimestamp.html">StatusTimestamp</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Stock.html">Stock</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockAnnouncedDetail.html">StockAnnouncedDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockChange.html">StockChange</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockChangeId.html">StockChangeId</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockChangeInboundItem.html">StockChangeInboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockChangeOutboundItem.html">StockChangeOutboundItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockChangeOutboundShippingNotificationItem.html">StockChangeOutboundShippingNotificationItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockChangeWithProduct.html">StockChangeWithProduct</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockInWarehouse.html">StockInWarehouse</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockLevelDetail.html">StockLevelDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockPageItem.html">StockPageItem</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockPerFulfiller.html">StockPerFulfiller</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.StockReservedDetail.html">StockReservedDetail</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.UpdateAddressRequest.html">UpdateAddressRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.UpdateDimensionsRequest.html">UpdateDimensionsRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.UpdateIdentifierRequest.html">UpdateIdentifierRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.UpdateInboundRequest.html">UpdateInboundRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.UpdateInboundShippingNotificationRequest.html">UpdateInboundShippingNotificationRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.UpdateMpnRequest.html">UpdateMpnRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.UpdateOutboundRequest.html">UpdateOutboundRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.UpdatePriceRequest.html">UpdatePriceRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.UpdateProductRequest.html">UpdateProductRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.UpdateSpecificationsRequest.html">UpdateSpecificationsRequest</a></div>
+      <div class="level2"><a class="xref" href="Ffn.Merchant.Core.OpenApi.Warehouse.html">Warehouse</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.IChangeTracking</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ffn.Core.html">Ffn.Core</a></h6>
+  <h6><strong>Assembly</strong>: Ffn.Core.dll</h6>
+  <h5 id="Ffn_Core_ClientModelBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ClientModelBase : IChangeTracking</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ClientModelBase_IsChanged.md&amp;value=---%0Auid%3A%20Ffn.Core.ClientModelBase.IsChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ClientModelBase.cs/#L10">View Source</a>
+  </span>
+  <a id="Ffn_Core_ClientModelBase_IsChanged_" data-uid="Ffn.Core.ClientModelBase.IsChanged*"></a>
+  <h4 id="Ffn_Core_ClientModelBase_IsChanged" data-uid="Ffn.Core.ClientModelBase.IsChanged">IsChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public bool IsChanged { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ClientModelBase_AcceptChanges.md&amp;value=---%0Auid%3A%20Ffn.Core.ClientModelBase.AcceptChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ClientModelBase.cs/#L13">View Source</a>
+  </span>
+  <a id="Ffn_Core_ClientModelBase_AcceptChanges_" data-uid="Ffn.Core.ClientModelBase.AcceptChanges*"></a>
+  <h4 id="Ffn_Core_ClientModelBase_AcceptChanges" data-uid="Ffn.Core.ClientModelBase.AcceptChanges">AcceptChanges()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AcceptChanges()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ClientModelBase_MarkAsChanged_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Core.ClientModelBase.MarkAsChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ClientModelBase.cs/#L26">View Source</a>
+  </span>
+  <a id="Ffn_Core_ClientModelBase_MarkAsChanged_" data-uid="Ffn.Core.ClientModelBase.MarkAsChanged*"></a>
+  <h4 id="Ffn_Core_ClientModelBase_MarkAsChanged_System_String_" data-uid="Ffn.Core.ClientModelBase.MarkAsChanged(System.String)">MarkAsChanged(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkAsChanged(string propertyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ClientModelBase_PropertyHasChanged_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Core.ClientModelBase.PropertyHasChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ClientModelBase.cs/#L21">View Source</a>
+  </span>
+  <a id="Ffn_Core_ClientModelBase_PropertyHasChanged_" data-uid="Ffn.Core.ClientModelBase.PropertyHasChanged*"></a>
+  <h4 id="Ffn_Core_ClientModelBase_PropertyHasChanged_System_String_" data-uid="Ffn.Core.ClientModelBase.PropertyHasChanged(System.String)">PropertyHasChanged(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PropertyHasChanged(string propertyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.IChangeTracking</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_ClientModelBase.md&amp;value=---%0Auid%3A%20Ffn.Core.ClientModelBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/ClientModelBase.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>powered by <strong>JTL</strong></span>
+          </div>
+        </div>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

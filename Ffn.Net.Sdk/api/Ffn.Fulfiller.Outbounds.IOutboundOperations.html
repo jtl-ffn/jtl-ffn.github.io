@@ -1,0 +1,749 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IOutboundOperations
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IOutboundOperations
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations">
+  
+  
+  <h1 id="Ffn_Fulfiller_Outbounds_IOutboundOperations" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations" class="text-break">Interface IOutboundOperations
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ffn.Fulfiller.Outbounds.html">Ffn.Fulfiller.Outbounds</a></h6>
+  <h6><strong>Assembly</strong>: Ffn.Fulfiller.dll</h6>
+  <h5 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IOutboundOperations</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_ChangeStatus_System_String_Ffn_Fulfiller_Outbounds_ChangeStatusParams_System_Nullable_DateTimeOffset__.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.ChangeStatus(System.String%2CFfn.Fulfiller.Outbounds.ChangeStatusParams%2CSystem.Nullable%7BDateTimeOffset%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L13">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_ChangeStatus_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.ChangeStatus*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_ChangeStatus_System_String_Ffn_Fulfiller_Outbounds_ChangeStatusParams_System_Nullable_DateTimeOffset__" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.ChangeStatus(System.String,Ffn.Fulfiller.Outbounds.ChangeStatusParams,System.Nullable{DateTimeOffset})">ChangeStatus(String, ChangeStatusParams, Nullable&lt;DateTimeOffset&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&gt; ChangeStatus(string outboundId, ChangeStatusParams changeStatusParams, DateTimeOffset? objectVersion = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">outboundId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Ffn.Fulfiller.Outbounds.ChangeStatusParams.html">ChangeStatusParams</a></td>
+        <td><span class="parametername">changeStatusParams</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td><span class="parametername">objectVersion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result.html">Result</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_ChangeStatusBulk_Ffn_Fulfiller_Outbounds_ChangeOutboundStatusParams_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.ChangeStatusBulk(Ffn.Fulfiller.Outbounds.ChangeOutboundStatusParams)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L14">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_ChangeStatusBulk_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.ChangeStatusBulk*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_ChangeStatusBulk_Ffn_Fulfiller_Outbounds_ChangeOutboundStatusParams_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.ChangeStatusBulk(Ffn.Fulfiller.Outbounds.ChangeOutboundStatusParams)">ChangeStatusBulk(ChangeOutboundStatusParams)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;List&lt;ChangedOutboundStatus&gt;&gt;&gt; ChangeStatusBulk(ChangeOutboundStatusParams changeOutboundStatusParams)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ffn.Fulfiller.Outbounds.ChangeOutboundStatusParams.html">ChangeOutboundStatusParams</a></td>
+        <td><span class="parametername">changeOutboundStatusParams</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<span class="xref">List</span>&lt;<a class="xref" href="Ffn.Fulfiller.Outbounds.ChangedOutboundStatus.html">ChangedOutboundStatus</a>&gt;&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_ChangeWarehouse_System_String_System_String_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.ChangeWarehouse(System.String%2CSystem.String%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L15">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_ChangeWarehouse_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.ChangeWarehouse*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_ChangeWarehouse_System_String_System_String_System_Nullable_System_Boolean__" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.ChangeWarehouse(System.String,System.String,System.Nullable{System.Boolean})">ChangeWarehouse(String, String, Nullable&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&gt; ChangeWarehouse(string outboundId, string warehouseId, bool? oversale = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">outboundId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">warehouseId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">oversale</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result.html">Result</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_CreateShippingLabel_System_String_Ffn_Fulfiller_Outbounds_CreateShippingLabelDataParams_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.CreateShippingLabel(System.String%2CFfn.Fulfiller.Outbounds.CreateShippingLabelDataParams)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L20">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_CreateShippingLabel_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.CreateShippingLabel*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_CreateShippingLabel_System_String_Ffn_Fulfiller_Outbounds_CreateShippingLabelDataParams_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.CreateShippingLabel(System.String,Ffn.Fulfiller.Outbounds.CreateShippingLabelDataParams)">CreateShippingLabel(String, CreateShippingLabelDataParams)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;OutboundShippingLabel&gt;&gt; CreateShippingLabel(string outboundId, CreateShippingLabelDataParams createShippingLabelDataParams)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">outboundId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Ffn.Fulfiller.Outbounds.CreateShippingLabelDataParams.html">CreateShippingLabelDataParams</a></td>
+        <td><span class="parametername">createShippingLabelDataParams</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundShippingLabel.html">OutboundShippingLabel</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_CreateShippingNotifications_System_String_Ffn_Fulfiller_Outbounds_CreateOutboundShippingNotificationParams_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.CreateShippingNotifications(System.String%2CFfn.Fulfiller.Outbounds.CreateOutboundShippingNotificationParams)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L16">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_CreateShippingNotifications_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.CreateShippingNotifications*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_CreateShippingNotifications_System_String_Ffn_Fulfiller_Outbounds_CreateOutboundShippingNotificationParams_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.CreateShippingNotifications(System.String,Ffn.Fulfiller.Outbounds.CreateOutboundShippingNotificationParams)">CreateShippingNotifications(String, CreateOutboundShippingNotificationParams)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;OutboundShippingNotification&gt;&gt; CreateShippingNotifications(string outboundId, CreateOutboundShippingNotificationParams createOutboundShippingNotificationParams)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">outboundId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Ffn.Fulfiller.Outbounds.CreateOutboundShippingNotificationParams.html">CreateOutboundShippingNotificationParams</a></td>
+        <td><span class="parametername">createOutboundShippingNotificationParams</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundShippingNotification.html">OutboundShippingNotification</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_Get_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.Get(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L10">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_Get_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.Get*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_Get_System_String_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.Get(System.String)">Get(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;Outbound&gt;&gt; Get(string outboundId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">outboundId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<a class="xref" href="Ffn.Fulfiller.Outbounds.Outbound.html">Outbound</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_GetAll_Ffn_Core_IQuery_Ffn_Fulfiller_Outbounds_Outbound__.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.GetAll(Ffn.Core.IQuery%7BFfn.Fulfiller.Outbounds.Outbound%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L11">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetAll_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetAll*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetAll_Ffn_Core_IQuery_Ffn_Fulfiller_Outbounds_Outbound__" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetAll(Ffn.Core.IQuery{Ffn.Fulfiller.Outbounds.Outbound})">GetAll(IQuery&lt;Outbound&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;PagedResult&lt;Outbound&gt;&gt; GetAll(IQuery&lt;Outbound&gt; query = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ffn.Core.IQuery-1.html">IQuery</a>&lt;<a class="xref" href="Ffn.Fulfiller.Outbounds.Outbound.html">Outbound</a>&gt;</td>
+        <td><span class="parametername">query</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.PagedResult-1.html">PagedResult</a>&lt;<a class="xref" href="Ffn.Fulfiller.Outbounds.Outbound.html">Outbound</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_GetAttachment_System_String_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.GetAttachment(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L19">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetAttachment_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetAttachment*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetAttachment_System_String_System_String_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetAttachment(System.String,System.String)">GetAttachment(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;OutboundAttachmentData&gt;&gt; GetAttachment(string outboundId, string merchantDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">outboundId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">merchantDocumentId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundAttachmentData.html">OutboundAttachmentData</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_GetShippingLabel_System_String_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.GetShippingLabel(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L21">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetShippingLabel_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetShippingLabel*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetShippingLabel_System_String_System_String_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetShippingLabel(System.String,System.String)">GetShippingLabel(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;OutboundShippingLabel&gt;&gt; GetShippingLabel(string outboundId, string shippingLabelId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">outboundId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">shippingLabelId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundShippingLabel.html">OutboundShippingLabel</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_GetShippingNotification_System_String_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.GetShippingNotification(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L17">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetShippingNotification_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetShippingNotification*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetShippingNotification_System_String_System_String_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetShippingNotification(System.String,System.String)">GetShippingNotification(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;OutboundShippingNotification&gt;&gt; GetShippingNotification(string outboundId, string fulfillerShippingNotificationNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">outboundId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fulfillerShippingNotificationNumber</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundShippingNotification.html">OutboundShippingNotification</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_GetShippingNotifications_System_String_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.GetShippingNotifications(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L18">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetShippingNotifications_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetShippingNotifications*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetShippingNotifications_System_String_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetShippingNotifications(System.String)">GetShippingNotifications(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Result&lt;List&lt;OutboundShippingNotification&gt;&gt;&gt; GetShippingNotifications(string outboundId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">outboundId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.Result-1.html">Result</a>&lt;<span class="xref">List</span>&lt;<a class="xref" href="Ffn.Fulfiller.Outbounds.OutboundShippingNotification.html">OutboundShippingNotification</a>&gt;&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations_GetUpdates_System_Nullable_DateTimeOffset__System_Nullable_DateTimeOffset__System_Nullable_System_Int32__Ffn_Core_RecentDataRequestSettings_.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations.GetUpdates(System.Nullable%7BDateTimeOffset%7D%2CSystem.Nullable%7BDateTimeOffset%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CFfn.Core.RecentDataRequestSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L12">View Source</a>
+  </span>
+  <a id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetUpdates_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetUpdates*"></a>
+  <h4 id="Ffn_Fulfiller_Outbounds_IOutboundOperations_GetUpdates_System_Nullable_DateTimeOffset__System_Nullable_DateTimeOffset__System_Nullable_System_Int32__Ffn_Core_RecentDataRequestSettings_" data-uid="Ffn.Fulfiller.Outbounds.IOutboundOperations.GetUpdates(System.Nullable{DateTimeOffset},System.Nullable{DateTimeOffset},System.Nullable{System.Int32},Ffn.Core.RecentDataRequestSettings)">GetUpdates(Nullable&lt;DateTimeOffset&gt;, Nullable&lt;DateTimeOffset&gt;, Nullable&lt;Int32&gt;, RecentDataRequestSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;UpdatesPagedResult&lt;Outbound&gt;&gt; GetUpdates(DateTimeOffset? fromDate = null, DateTimeOffset? toDate = null, int? page = null, RecentDataRequestSettings recentDataRequestSettings = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">page</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Ffn.Core.RecentDataRequestSettings.html">RecentDataRequestSettings</a></td>
+        <td><span class="parametername">recentDataRequestSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ffn.Core.UpdatesPagedResult-1.html">UpdatesPagedResult</a>&lt;<a class="xref" href="Ffn.Fulfiller.Outbounds.Outbound.html">Outbound</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Fulfiller_Outbounds_IOutboundOperations.md&amp;value=---%0Auid%3A%20Ffn.Fulfiller.Outbounds.IOutboundOperations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Fulfiller/Outbounds/IOutboundOperations.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>powered by <strong>JTL</strong></span>
+          </div>
+        </div>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

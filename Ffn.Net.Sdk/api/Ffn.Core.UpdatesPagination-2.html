@@ -1,0 +1,381 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class UpdatesPagination&lt;T, TResult&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class UpdatesPagination&lt;T, TResult&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Ffn.Core.UpdatesPagination`2">
+  
+  
+  <h1 id="Ffn_Core_UpdatesPagination_2" data-uid="Ffn.Core.UpdatesPagination`2" class="text-break">Class UpdatesPagination&lt;T, TResult&gt;
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Ffn.Core.Pagination-2.html">Pagination</a>&lt;T, TResult&gt;</div>
+    <div class="level2"><span class="xref">UpdatesPagination&lt;T, TResult&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Ffn.Core.IPagination-1.html">IPagination</a>&lt;T&gt;</div>
+    <div><a class="xref" href="Ffn.Core.IUpdatesPagination.html">IUpdatesPagination</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2__apiCall">Pagination&lt;T, TResult&gt;._apiCall</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2__initialData">Pagination&lt;T, TResult&gt;._initialData</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2__dataResolver">Pagination&lt;T, TResult&gt;._dataResolver</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2__nextPageResolver">Pagination&lt;T, TResult&gt;._nextPageResolver</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2__requestIdResolver">Pagination&lt;T, TResult&gt;._requestIdResolver</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2__currentData">Pagination&lt;T, TResult&gt;._currentData</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2_Clone">Pagination&lt;T, TResult&gt;.Clone()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2_CreateIterator">Pagination&lt;T, TResult&gt;.CreateIterator()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2_HasNextChunk">Pagination&lt;T, TResult&gt;.HasNextChunk()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2_LoadNextChunk">Pagination&lt;T, TResult&gt;.LoadNextChunk()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2_LoadNextChunk_System_Threading_CancellationToken_">Pagination&lt;T, TResult&gt;.LoadNextChunk(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2_CurrentChunk">Pagination&lt;T, TResult&gt;.CurrentChunk()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ffn.Core.Pagination-2.html#Ffn_Core_Pagination_2_CurrentRequestId">Pagination&lt;T, TResult&gt;.CurrentRequestId()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ffn.Core.html">Ffn.Core</a></h6>
+  <h6><strong>Assembly</strong>: Ffn.Core.dll</h6>
+  <h5 id="Ffn_Core_UpdatesPagination_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UpdatesPagination&lt;T, TResult&gt; : Pagination&lt;T, TResult&gt;, IPagination&lt;T&gt;, IUpdatesPagination where T : class</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_UpdatesPagination_2__ctor_System_Func_System_Uri_System_Threading_CancellationToken_System_Threading_Tasks_Task__1____1_System_Func__1_System_Collections_Generic_IReadOnlyList__0___System_Func__1_System_Uri__System_Func__1_System_Guid__System_Func__1_System_DateTimeOffset__System_Func__1_System_DateTimeOffset__.md&amp;value=---%0Auid%3A%20Ffn.Core.UpdatesPagination%602.%23ctor(System.Func%7BSystem.Uri%2CSystem.Threading.CancellationToken%2CSystem.Threading.Tasks.Task%7B%601%7D%7D%2C%601%2CSystem.Func%7B%601%2CSystem.Collections.Generic.IReadOnlyList%7B%600%7D%7D%2CSystem.Func%7B%601%2CSystem.Uri%7D%2CSystem.Func%7B%601%2CSystem.Guid%7D%2CSystem.Func%7B%601%2CSystem.DateTimeOffset%7D%2CSystem.Func%7B%601%2CSystem.DateTimeOffset%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/UpdatesPagination.cs/#L19">View Source</a>
+  </span>
+  <a id="Ffn_Core_UpdatesPagination_2__ctor_" data-uid="Ffn.Core.UpdatesPagination`2.#ctor*"></a>
+  <h4 id="Ffn_Core_UpdatesPagination_2__ctor_System_Func_System_Uri_System_Threading_CancellationToken_System_Threading_Tasks_Task__1____1_System_Func__1_System_Collections_Generic_IReadOnlyList__0___System_Func__1_System_Uri__System_Func__1_System_Guid__System_Func__1_System_DateTimeOffset__System_Func__1_System_DateTimeOffset__" data-uid="Ffn.Core.UpdatesPagination`2.#ctor(System.Func{System.Uri,System.Threading.CancellationToken,System.Threading.Tasks.Task{`1}},`1,System.Func{`1,System.Collections.Generic.IReadOnlyList{`0}},System.Func{`1,System.Uri},System.Func{`1,System.Guid},System.Func{`1,System.DateTimeOffset},System.Func{`1,System.DateTimeOffset})">UpdatesPagination(Func&lt;Uri, CancellationToken, Task&lt;TResult&gt;&gt;, TResult, Func&lt;TResult, IReadOnlyList&lt;T&gt;&gt;, Func&lt;TResult, Uri&gt;, Func&lt;TResult, Guid&gt;, Func&lt;TResult, DateTimeOffset&gt;, Func&lt;TResult, DateTimeOffset&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UpdatesPagination(Func&lt;Uri, CancellationToken, Task&lt;TResult&gt;&gt; apiCall, TResult initialData, Func&lt;TResult, IReadOnlyList&lt;T&gt;&gt; dataResolver, Func&lt;TResult, Uri&gt; nextPageResolver, Func&lt;TResult, Guid&gt; requestIdResolver, Func&lt;TResult, DateTimeOffset&gt; fromResolver, Func&lt;TResult, DateTimeOffset&gt; toResolver)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Uri</span>, <span class="xref">System.Threading.CancellationToken</span>, <span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;&gt;</td>
+        <td><span class="parametername">apiCall</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">initialData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TResult, <span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">dataResolver</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TResult, <span class="xref">System.Uri</span>&gt;</td>
+        <td><span class="parametername">nextPageResolver</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TResult, <span class="xref">System.Guid</span>&gt;</td>
+        <td><span class="parametername">requestIdResolver</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TResult, <span class="xref">System.DateTimeOffset</span>&gt;</td>
+        <td><span class="parametername">fromResolver</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TResult, <span class="xref">System.DateTimeOffset</span>&gt;</td>
+        <td><span class="parametername">toResolver</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_UpdatesPagination_2_Clone.md&amp;value=---%0Auid%3A%20Ffn.Core.UpdatesPagination%602.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/UpdatesPagination.cs/#L33">View Source</a>
+  </span>
+  <a id="Ffn_Core_UpdatesPagination_2_Clone_" data-uid="Ffn.Core.UpdatesPagination`2.Clone*"></a>
+  <h4 id="Ffn_Core_UpdatesPagination_2_Clone" data-uid="Ffn.Core.UpdatesPagination`2.Clone">Clone()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IPagination&lt;T&gt; Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ffn.Core.IPagination-1.html">IPagination</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Ffn.Core.Pagination&lt;T, TResult&gt;.Clone()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_UpdatesPagination_2_GetCurrentDataFrom.md&amp;value=---%0Auid%3A%20Ffn.Core.UpdatesPagination%602.GetCurrentDataFrom%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/UpdatesPagination.cs/#L31">View Source</a>
+  </span>
+  <a id="Ffn_Core_UpdatesPagination_2_GetCurrentDataFrom_" data-uid="Ffn.Core.UpdatesPagination`2.GetCurrentDataFrom*"></a>
+  <h4 id="Ffn_Core_UpdatesPagination_2_GetCurrentDataFrom" data-uid="Ffn.Core.UpdatesPagination`2.GetCurrentDataFrom">GetCurrentDataFrom()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset GetCurrentDataFrom()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTimeOffset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_UpdatesPagination_2_GetCurrentDataTo.md&amp;value=---%0Auid%3A%20Ffn.Core.UpdatesPagination%602.GetCurrentDataTo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/UpdatesPagination.cs/#L32">View Source</a>
+  </span>
+  <a id="Ffn_Core_UpdatesPagination_2_GetCurrentDataTo_" data-uid="Ffn.Core.UpdatesPagination`2.GetCurrentDataTo*"></a>
+  <h4 id="Ffn_Core_UpdatesPagination_2_GetCurrentDataTo" data-uid="Ffn.Core.UpdatesPagination`2.GetCurrentDataTo">GetCurrentDataTo()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset GetCurrentDataTo()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTimeOffset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Ffn.Core.IPagination-1.html">IPagination&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="Ffn.Core.IUpdatesPagination.html">IUpdatesPagination</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/new/develop/apiSpec/new?filename=Ffn_Core_UpdatesPagination_2.md&amp;value=---%0Auid%3A%20Ffn.Core.UpdatesPagination%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jtl-ffn/Ffn.Net.Sdk/blob/develop/Ffn.Core/UpdatesPagination.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>powered by <strong>JTL</strong></span>
+          </div>
+        </div>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
